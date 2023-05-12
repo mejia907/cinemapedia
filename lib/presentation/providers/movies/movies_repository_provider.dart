@@ -6,5 +6,5 @@ import 'package:cinemapedia/infrastructure/datasources/moviedb_datasource.dart';
 
 /// Este repositorio es inmutable (Solo lectura)
 final movieRepositoryProvider = Provider((ref) {
-  return MovieRepositoryImpl(MovidedbDataSource());
+  return MovieRepositoryImpl(MoviedbDataSource());
 });
