@@ -3,11 +3,11 @@ import 'package:path_provider/path_provider.dart';
 import 'package:cinemapedia/domain/datasources/local_storage_datasource.dart';
 import 'package:cinemapedia/domain/entities/movie.dart';
 
-class IsarDataSource extends LocalStorageDatasource {
+class IsarDatasource extends LocalStorageDatasource {
   late Future<Isar> db;
 
   //Abrir la DB
-  IsarDataSource() {
+  IsarDatasource() {
     db = openDB();
   }
 
@@ -51,6 +51,7 @@ class IsarDataSource extends LocalStorageDatasource {
     if (movieFavorite != null) {
       //Eliminar
       isar.writeTxnSync(() => isar.movies.deleteSync(movieFavorite.isarId!));
+      return;
     }
 
     //Insertar

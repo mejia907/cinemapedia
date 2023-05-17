@@ -5,6 +5,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 ///Crea la instancia el actor_repository_impl
 
 /// Este repositorio es inmutable (Solo lectura)
-final actorRepositoryProvider = Provider((ref) {
+final actorsRepositoryProvider = Provider((ref) {
   return ActorRepositoryImpl(ActorMovieDbDatasource());
 });
