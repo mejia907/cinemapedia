@@ -1,5 +1,4 @@
 ## Cinemapedia
-<p align="center"><a href="https://angular.io/" target="_blank"><img src="https://camo.githubusercontent.com/8ca355b5c8a6df04ea30294e513b38128c214075013df41d95609ccd1a745c91/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f636d732d73746f726167652d6275636b65742f36653139666565366234376233366361363133662e706e67" width="300"></a></p>
 
 ## Descripción
 Proyecto desarrollado bajo el Framework de <b>Flutter</b>, que permite consumir una API de peliculas, donde se puede visualizar el detalle de cada una, al igual que le permite al usuario definir las favoritas y encontrar una lista de las mismas.
